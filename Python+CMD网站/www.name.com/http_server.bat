@@ -1,5 +1,5 @@
 @echo off
-cd .html
+cd html
 start "http_server" /min cmd /c "python -m http.server 8000"
 start http://127.0.0.1:4040
 ngrok http 8000
